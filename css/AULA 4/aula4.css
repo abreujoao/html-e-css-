@@ -1,0 +1,37 @@
+.gridComidas {
+    margin-top: 50px;
+    display: grid;
+    grid-template-areas: "pizza pizza pizza"
+                        "hamburguer macarrao macarrao"
+                        "hamburguer sushi sushi"
+                        "pastel pastel suco";
+    grid-template-rows: auto auto auto;
+}
+
+#pizza {
+    grid-area: pizza;
+    background-color: aquamarine;
+}
+#hamburguer div{
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    border: 10px outset rgb(162, 156, 156);
+
+}
+#hamburguer {
+    grid-area: hamburguer;
+    background-color: rgb(235, 195, 147);
+
+}
+
+#macarrao {
+    grid-area: macarrao;
+    background-color: rgb(233, 177, 136);
+}
+
+#sushi {
+    grid-area: sushi;
+    background-color: rgb(207, 240, 174);
+}
+    

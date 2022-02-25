@@ -1,0 +1,8 @@
+.opcao-menu{
+padding: 5px;
+}
+main{
+    background-image: url("./img.not");
+    background-repeat: no-repeat;
+    background-size: cover;
+}

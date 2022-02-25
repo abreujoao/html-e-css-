@@ -1,0 +1,50 @@
+
+header{
+   background: linear-gradient(to bottom ,rgb(2, 20, 186), rgb(126, 148, 238));
+   padding: 1px;
+}
+main{
+    background-image: url(johnnie-walker-natal2021.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#lis{   
+    border-radius: 25px;
+    background-image: linear-gradient(to bottom , rgba(0, 0, 0, 0.522));
+    padding: 20px;
+    list-style: none;
+    height: 23px;
+    text-decoration: none;
+    margin-top: 45px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+    border: 7px outset rgb(172, 163, 163);
+    color: white;
+
+}
+header a:hover{
+    background-color: rgb(17, 2, 2);
+    padding: 15px;
+}
+header a{
+    text-decoration: none;
+    padding:10px;
+    height: 20px;
+}
+#imagem{
+    list-style: none;
+}
+#imagem img{
+    width: 170px;
+    height: 180px;
+}
+header ul{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+ul{
+    color:bisque;
+}
+.cor{
+    color: white;
+}

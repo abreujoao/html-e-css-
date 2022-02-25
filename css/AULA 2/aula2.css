@@ -1,0 +1,71 @@
+body {
+    margin: 0;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    background-color: antiquewhite;
+    border-bottom: 5px solid gray;
+    z-index: 1;
+    margin-top: 10px;
+}
+
+header ul {
+    display: flex; /*torna o elemento flexivel para poder */
+    flex-direction: row;
+    justify-content: flex-start; /*espaçamento das opcoes*/
+}
+
+header li {
+    list-style: none; /*tira bolinha*/
+}
+
+header a {
+    text-decoration: none; /*tirar barrinha de baixo da opcao*/
+    background-color: rgb(190, 100, 67);
+    padding: 10px;
+}
+
+header a:hover { /*quando assa o moouse em cima troca cor do fundo e da letra*/
+    background-color: black;
+    color: white;
+}
+.menu-dropdown{
+    display: none;
+    position: absolute;
+    margin-top: 50px;
+    margin-left: -20px;
+    background-color: blanchedalmond;
+    border: 3px outset black;
+   
+}
+.menu-hover:hover .menu-dropdown{
+    display: block;
+    
+}
+.menu-dropdown ul{
+display:flex;
+flex-direction: column;
+}
+
+.caixa-relative {
+    position: relative;
+    width: 50%;
+    background-color: aquamarine;
+    left: 10%;
+    top: 10%;
+}
+
+footer {
+    /*Podemos utilizar o fixed para
+    fixar o footer no rodapé da página*/
+    position: fixed;
+    bottom: 0;
+    left: 25%;
+    width: 50%;
+    text-align: center;
+    background-color: gray;
+}
+/*AULA 3 */
+

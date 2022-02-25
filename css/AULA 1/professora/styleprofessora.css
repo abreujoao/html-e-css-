@@ -1,0 +1,92 @@
+body{
+    background-color: rgb(247, 212, 136)
+}
+/*caixa de div flutuante*/
+.caixa{
+    width: 50%;
+    min-height: 300px;
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    padding: 20px;
+}
+  
+  .caixa-fundo{
+    background-color: gray;
+    border: 2px solid black;
+    
+  }
+  #texto-destacado{
+      color: aquamarine;
+      font-weight: bold;
+  }
+  /*aula 2*/
+  .box{     
+    background-color: beige; 
+    border: 25px inset gray;
+    width: 50%;
+    height: 200px;
+    line-height: 200px;
+    text-align: center;
+  }
+  .box-p{
+    line-height: normal;
+    display: inline-block;
+  }
+  .box-gradient{
+   width: 100px;
+   height: 100px;
+   margin: 10px;
+   background:linear-gradient(to left,gray,black, rgb(101, 141, 101));
+   padding: 3px;
+  }
+  .box-inside{
+    height: 70px;
+   width: 80px;
+   margin-left: 10px;
+   margin-bottom: 10px;
+    margin: 10px;
+    background-color: black;
+  }
+  .jp{
+    background-color: antiquewhite;
+    border: 25px ridge gray;
+    width: 100px; ;
+    height: 50px;
+    text-align: center;
+  }
+  .fonte1{
+    font-family: "arial";
+    font-size: 20px;
+    font-variant: small-caps;
+    font-style: italic;
+  }
+  .fonte2{
+    font-style: oblique;
+    font-weight: bold;
+    text-transform: capitalize;
+    }
+.fonte3{
+  text-transform: lowercase;
+ }
+a{
+  /*text-decorantion:underline com linha (padrao*/
+  /*text-decorantion:overline linha acima do link*/
+  /*text-decorantion:none; sem linha*/
+  text-decoration: line-through;
+  text-decoration-color: crimson;
+  text-decoration-style:dotted ;
+  text-decoration: double;
+/*text-decorantion-style:wavy ondinha
+/*text-decorantion-style:dotted tracejado
+/*text-decorantion-style: dashed duplo*/
+ }
+.texto-prop{
+  /*sombreamento*/
+  text-shadow: 50px 10px 5px black;
+  font-size: 50px;
+ }
+
+
+  /*aula 2

@@ -1,0 +1,11 @@
+.opcao-menu{
+padding: 5px;
+}
+main{
+    background-image: url("./moça.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+footer{
+    background-color: rgb(151, 127, 219);
+}
